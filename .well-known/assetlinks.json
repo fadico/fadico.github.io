@@ -1,0 +1,82 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.bouygues.teov2",
+            "sha256_cert_fingerprints": [
+                "D9:7E:D3:28:8B:E0:4C:7A:B3:FB:7B:CA:78:9B:37:75:00:31:FA:AA:6A:47:8A:6C:33:6F:6C:5A:B0:95:34:3B"
+            ],
+            "target_path_prefix": "/teo/*"
+        }
+    },
+    
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.bouygues.teov2.qualif",
+            "sha256_cert_fingerprints": [
+                "D9:7E:D3:28:8B:E0:4C:7A:B3:FB:7B:CA:78:9B:37:75:00:31:FA:AA:6A:47:8A:6C:33:6F:6C:5A:B0:95:34:3B"
+            ],
+            "target_path_prefix": "/teoqualif/*"
+        }
+    },
+    
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.bouygues.teov2.debug",
+            "sha256_cert_fingerprints": [
+                "64:34:04:A3:21:CF:ED:C1:BF:D3:1A:A7:47:FE:03:35:25:78:1B:52:4C:52:12:9A:9F:9B:30:B1:24:FB:35:49"
+            ],
+            "target_path_prefix": "/teo"
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.bouygues.amor.store",
+            "sha256_cert_fingerprints": [
+                "D9:7E:D3:28:8B:E0:4C:7A:B3:FB:7B:CA:78:9B:37:75:00:31:FA:AA:6A:47:8A:6C:33:6F:6C:5A:B0:95:34:3B"
+            ],
+            "target_path_prefix": "/amor/*"
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.bouygues.amor.sir",
+            "sha256_cert_fingerprints": [
+                "D9:7E:D3:28:8B:E0:4C:7A:B3:FB:7B:CA:78:9B:37:75:00:31:FA:AA:6A:47:8A:6C:33:6F:6C:5A:B0:95:34:3B"
+            ],
+            "target_path_prefix": "/amor/*"
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.bouygues.crosssector",
+            "sha256_cert_fingerprints": [
+                "D9:7E:D3:28:8B:E0:4C:7A:B3:FB:7B:CA:78:9B:37:75:00:31:FA:AA:6A:47:8A:6C:33:6F:6C:5A:B0:95:34:3B"
+            ],
+            "target_path_prefix": "/xsector/*"
+        }
+    }
+]
